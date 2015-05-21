@@ -1,0 +1,129 @@
+#body {
+  margin: 0;
+  padding: 0;
+  background: #26596A;
+}
+
+#description {
+    border-style: groove;
+    border-color: #022835;
+    margin-right: 400px;
+    margin-left: 400px;
+    border-width: 5px;
+    padding: 20px;
+    color: #000000; 
+    text-align: center;
+    
+    
+}
+#paragraph {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #6C929F;
+    padding: 20px;
+    margin-left: 120px;
+    margin-right: 20px;
+    
+}
+/*------------Top Bar------------*/
+#nav ul {
+  list-style: none;
+  background-color: #022835;            /*Sidebar color (not button)*/
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-top: groove;
+  border-width: 4px;
+  border-color: #457585;
+  border-left: groove;
+  border-width: 4px;
+  border-color: #457585;
+}
+#nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  background-color: #022835;
+}
+ 
+#nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .8s;
+}
+ 
+#nav a:hover {
+  background-color: #005f5f;
+}
+ 
+#nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+/*------------Side Bar------------*/
+#sidenav ul {
+  
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  top: 170px;
+  float: left;
+  list-style: none;
+  background-color: #022835;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  margin-right: 10px;
+  border-left: groove;
+  border-width: 4px;
+  border-color: #457585;
+}
+#sidenav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  background-color: #022835;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+ 
+#sidenav a {
+  text-decoration: none;
+  color: #022835;
+  display: block;
+  transition: .8s;
+}
+ 
+#sidenav a:hover {
+  background-color: #6C939F;
+}
+ 
+#sidenav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+/*------------  ------------*/
+
+ 
+@media screen and (min-width: 600px) {
+    #nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+ 
+
+    #nav li {
+        display: inline-block;
+        margin-right: -4px;
+    }
+}
+
