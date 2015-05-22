@@ -1,16 +1,18 @@
 html, #body {
+  
   margin: 0;
   padding: 0;
-  background: #26596A;
+  background: #26596A; 
   height: 100%;
 }
 
 #description {
+    background-color: #6C939F;
     border-style: groove;
     border-color: #022835;
+    border-width: 5px;
     margin-right: 400px;
     margin-left: 400px;
-    border-width: 5px;
     padding: 20px;
     color: #000000; 
     text-align: center;
@@ -18,10 +20,11 @@ html, #body {
     
 }
 .paragraph {
-    font-size: large;
-    border-style: solid;
+    background-color: #6C939F;
+    border-style: groove;
+    border-color: #022835;
     border-width: 5px;
-    border-color: #6C929F;
+    font-size: large;
     padding: 20px;
     margin-left: 145px;
     margin-right: 20px;
@@ -36,10 +39,10 @@ html, #body {
   margin: 0;
   border-top: groove;
   border-width: 4px;
-  border-color: #457585;
+  border-color: #069ED0;
   border-left: groove;
   border-width: 4px;
-  border-color: #457585;
+  border-color: #069ED0;
 }
 #nav li {
   font-family: 'Oswald', sans-serif;
@@ -76,7 +79,7 @@ html, #body {
   margin-right: 10px;
   border-left: groove;
   border-width: 4px;
-  border-color: #457585;
+  border-color: #069ED0;
   position: absolute;
   top: 171px;
   height: 100%;
@@ -100,8 +103,7 @@ html, #body {
 }
  
 #sidenav a:hover {
-  background-color: #6C939F;
-  
+  color: #FFFFFF
 }
  
 #sidenav a.active {
