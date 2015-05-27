@@ -1,0 +1,21 @@
+$(document).ready(function(){
+    
+    
+    $("#left-list").hide();
+    
+    
+    $("#left-back").hover(fadeIn(),fadeOut());
+    
+    
+    function fadeOut(){
+        $("#left-list").fadeOut(350);
+    }    
+    
+    function fadeIn(){
+        $("#left-list").delay(2000).fadeIn(350);
+    }
+    
+    
+    
+    
+});
