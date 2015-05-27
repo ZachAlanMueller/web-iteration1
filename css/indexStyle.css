@@ -27,6 +27,9 @@ body {
     width: 200px;
     -webkit-animation-play-state: paused; /* Chrome, Safari, Opera */
     animation-play-state: paused;
+    
+    
+    
 }
 #left-list {
     line-height: 200%;
@@ -48,7 +51,7 @@ body {
     
 }
 #left-list:hover {
-    color: red;
+    
     
     
     
@@ -76,13 +79,14 @@ body {
     animation-iteration-count: infinite;
 }
 #right-back:hover {
+    text-align: center;
     width: 200px;
     -webkit-animation-play-state: paused; /* Chrome, Safari, Opera */
     animation-play-state: paused;
 }
 #right-list {
     line-height: 200%;
-    opacity: 0.0;
+    visibility: hidden;
     
     
     
@@ -97,10 +101,18 @@ body {
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-delay: .5s;
     
+    animation-name: pulse-vis;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: .5s;
+    -webkit-animation-name: pulse-vis;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-delay: .5s;
+    
     
 }
 #right-list:hover {
-    color: red;
     
     
     
@@ -187,4 +199,8 @@ body {
     to {opacity: 0.0;}
 }
 
+@keyframes pulse-vis {
+    from {visibility: hidden;}
+    to {visibility: visible;}
+}
 
