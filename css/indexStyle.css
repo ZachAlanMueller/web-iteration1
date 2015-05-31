@@ -2,6 +2,26 @@ body {
     background: url("../img/indexBackground.png");
 }
 
+
+
+
+#leftImg {
+    position: absolute;
+    top:15px;
+    left: 65px;
+}
+#rightImg {
+    position: absolute;
+    top:15px;
+    right: 65px;
+}
+
+
+
+
+
+
+
 #left-back {
     background: #246068;
     border-right: solid 5px #69969C;/*#012E34;*/
@@ -27,9 +47,6 @@ body {
     width: 200px;
     -webkit-animation-play-state: paused; /* Chrome, Safari, Opera */
     animation-play-state: paused;
-    
-    
-    
 }
 #left-list {
     line-height: 200%;
@@ -84,13 +101,15 @@ body {
     -webkit-animation-play-state: paused; /* Chrome, Safari, Opera */
     animation-play-state: paused;
 }
+
 #right-list {
     line-height: 200%;
-    visibility: hidden;
+    
     
     
     
 }
+/*
 #right-back:hover > #right-list {
     animation-name: pulse-in;
     animation-duration: 1s;
@@ -118,7 +137,7 @@ body {
     
        
 }
-
+*/
 #button {
    border: 3px solid #0a3c59;
    background: #3e779d;
@@ -166,6 +185,28 @@ body {
    background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
    color: #fff;
    }
+
+
+
+
+
+
+#quote {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 20px;
+    color: #69969C;
+    font-size: large;
+    
+    
+    horizontal-align: center;
+    
+    
+    
+}
+
+
 /* Name-logo */
 #centerImg {
     text-align: center;
